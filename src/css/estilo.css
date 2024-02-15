@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+    
+}
+
+.container-central {
+    margin: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.grid-interna-1{
+    justify-content: center;
+    background-image: url(../../assets/imagens/fundo.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.grid-interna-2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.redondo{
+    border-radius: 5px;
+}
